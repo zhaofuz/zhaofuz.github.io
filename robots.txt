@@ -1,0 +1,28 @@
+# robots.txt — XKCQW 传奇发布网站
+# 站点：https://zhaofuz.github.io/
+
+User-agent: *
+Allow: /
+# 构建源码与模板不参与索引
+Disallow: /_src/
+Disallow: /404.html
+
+# 百度蜘蛛（Baiduspider）：明确允许抓取全站与静态资源
+User-agent: Baiduspider
+Allow: /
+Disallow: /_src/
+
+User-agent: Baiduspider-render
+Allow: /
+
+# 其他常见中文搜索引擎
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
+Sitemap: https://zhaofuz.github.io/sitemap.xml
